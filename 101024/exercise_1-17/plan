@@ -1,0 +1,18 @@
+Write a program to print all input lines that are longer than
+80 characters.
+== first versioN
+a line is zero or more characters ending with '\n'.
+Example:
+A smart turtle'\n'
+'\n'
+tried to learn Unix'\n'
+How to delimit a line?
+How to identify a line?
+How to identify an input-line?
+How to identify a line using getchar?
+How is input given?
+Call getchar, then test each character. If current char is '\n', stop it
+and if this 
+Call getchar, for each character add one to total characters. If current
+character is greater than 80 and is equal to '\n', print this line.
+The total of chars is tested after the '\n'.

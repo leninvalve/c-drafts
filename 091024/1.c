@@ -6,7 +6,7 @@ int main()
 	open = closed = 0;
 	int c;
 	while ((c = getchar()) != EOF) {
-		if c == '(') open++;
+		if (c == '(') open++;
 		if (c == ')') closed++;
 	}
 
