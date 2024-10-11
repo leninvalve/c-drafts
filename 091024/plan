@@ -1,0 +1,10 @@
+while get a character is not eof
+	if character is "("
+		open++
+	if character is ")"
+		closed++
+
+if open == closed
+	print syntax ok
+else
+	print sytax ERROR
