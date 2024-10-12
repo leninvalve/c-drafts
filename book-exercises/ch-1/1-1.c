@@ -1,3 +1,4 @@
+// include information about standard library
 #include <stdio.h>
 
 int main(void)
