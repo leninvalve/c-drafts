@@ -12,7 +12,7 @@ int main(void)
 	// to the printf function. Such values are named
 	// 'arguments'.
 	// So, arguments is a method for communicating values
- 	// functions.
+ 	// to functions.
 
 	// It is also a statement, since it ends with a 
 	// semicolon. Do all statements end with a semicolon?
