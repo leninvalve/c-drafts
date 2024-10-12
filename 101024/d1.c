@@ -20,7 +20,7 @@ int main()
 	// modifies the performance of the program.
 	while (read_line(line)) {
 		printf(">> Array repr: ");
-		putchar('[ ');
+		putchar('[');
 		for (i = 0; i < 4; i++)
 			printf("(%c) ", line[i]);
 		putchar(']');
